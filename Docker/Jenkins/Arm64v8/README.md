@@ -55,4 +55,4 @@ This project for the ARM based SBC board.
 
 ## Build image URL
 
-- https://hub.docker.com/repository/docker/shieldguy/jenkins-jdk11-arm64/tags?page=1
+- https://hub.docker.com/r/shieldguy/jenkins-jdk11-arm64
