@@ -3,7 +3,7 @@ services:
   jenkins:
     build: 
       context: .
-    image: jenkins-blueocean-jre11-arm64:2.249.1
+    image: jenkins-jdk11-arm64:2.249.1
     ports:
       - "8080:8080"
     environment:

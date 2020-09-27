@@ -1,4 +1,4 @@
-# Jenkins with JRE 11 for Arm64v8
+# Jenkins with JDK 11 for Arm64
 
 This project for the ARM based SBC board.
 - Tested SBC
@@ -6,8 +6,8 @@ This project for the ARM based SBC board.
   - RockPI4 with Ubuntu 18.04LTS/20.04LTS 64bit
 
 - Package information
-  - OpenJDK JRE : v11
-  - Jenkins : 2.249.1
+  - OpenJDK : v11
+  - Jenkins : v2.249.1
 
 - NOTICE
   - If you want to use another version of jenkins, you can change `JENKINS_VER` on **Dockerfile**
@@ -55,4 +55,4 @@ This project for the ARM based SBC board.
 
 ## Build image URL
 
-- https://hub.docker.com/repository/docker/shieldguy/jenkins-blueocean-jre11-arm64/tags?page=1
+- https://hub.docker.com/repository/docker/shieldguy/jenkins-jdk11-arm64/tags?page=1

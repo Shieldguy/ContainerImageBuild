@@ -1,4 +1,4 @@
-FROM arm64v8/openjdk:11-jre-buster
+FROM arm64v8/openjdk:11-buster
 
 RUN groupadd -g 500 jenkins && \
     useradd -ms /bin/bash -d /home/jenkins -u 500 -g 500 jenkins
