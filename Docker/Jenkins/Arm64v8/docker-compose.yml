@@ -10,3 +10,4 @@ services:
       - JENKINS_HOME=/home/jenkins
     volumes:
       - /data/jenkins:/home/jenkins
+    restart: always

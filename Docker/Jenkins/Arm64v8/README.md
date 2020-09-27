@@ -17,11 +17,11 @@ These build file tested with Ubuntu 18.04/20.04 on Raspberry PI4 / Rock PI 4
 ```
 - Run container
 ```
-# docker-compose up
+# docker-compose up -d
 ```
 - Build and Run
 ```
-# docker-compose up --build
+# docker-compose up --build -d
 ```
 
 # Environment
