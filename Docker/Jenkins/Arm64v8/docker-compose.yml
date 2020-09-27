@@ -7,7 +7,7 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - JENKINS_HOME=/home/jenkins
+      - JENKINS_HOME=/home/jenkins/data
     volumes:
-      - /data/jenkins:/home/jenkins
+      - /data/jenkins:/home/jenkins/data
     restart: always
