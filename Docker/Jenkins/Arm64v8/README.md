@@ -31,3 +31,7 @@ These build file tested with Ubuntu 18.04/20.04 on Raspberry PI4 / Rock PI 4
   - Change image tag on docker-compose.yml
 - Volume mapping
   - Host's /data/jenkins directory to /home/jenkins directory of container.
+
+# Container image URL
+
+- https://hub.docker.com/repository/docker/shieldguy/jenkins-blueocean-jre11-arm64/tags?page=1
