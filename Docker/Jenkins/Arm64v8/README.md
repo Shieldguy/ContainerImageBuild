@@ -10,9 +10,9 @@ This project for the ARM based SBC board.
   - Jenkins : 2.249.1
 
 - NOTICE
-  - If you want to use another version of jenkins, you can change JENKINS_VER on Dockerfile
-  - The compose file already mapped host's /data/jenkins to container's /home/jenkins/data directory to store Jenkins configuration data.
-  - If you want to mapping host's directory to container's /home/jenkins/data directory, host directory should have GID:500, UID:500
+  - If you want to use another version of jenkins, you can change *JENKINS_VER* on *Dockerfile*
+  - The compose file already mapped host's */data/jenkins* to container's */home/jenkins/data* directory to store Jenkins configuration data.
+  - If you want to mapping host's directory to container's */home/jenkins/data* directory, host directory should have *GID:500*, *UID:500*
 
 ## Build and run
 
@@ -48,10 +48,10 @@ This project for the ARM based SBC board.
 ## Environment (docker-compose)
 
 - Build image version tag
-  - Image version tag is already defined on the docker-compose.yml. You can change it
+  - Image version tag is already defined on the *docker-compose.yml*. You can change it
 - Volume mapping
-  - The compose file already mapped Host's /data/jenkins directory to container's /home/jenkins/data directory.
-  - If you don't want to mount it, please comment out the volumes section on docker-compose.yml
+  - The compose file already mapped Host's */data/jenkins* directory to container's */home/jenkins/data* directory.
+  - If you don't want to mount it, please comment out the *volumes* section on *docker-compose.yml*
 
 ## Build image URL
 
