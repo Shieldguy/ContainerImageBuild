@@ -1,9 +1,9 @@
-# Jenkins (BlueOcean) with JRE 11 for Arm64v8
+# Jenkins with JRE 11 for Arm64v8
 
 This project for the ARM based SBC board.
 - Tested SBC
-  - RaspberryPI4 with Ubuntu 20.04LTS
-  - RockPI4 with Ubuntu 18.04LTS/20.04LTS
+  - RaspberryPI4 with Ubuntu 20.04LTS 64bit
+  - RockPI4 with Ubuntu 18.04LTS/20.04LTS 64bit
 
 - Package information
   - OpenJDK JRE : v11
